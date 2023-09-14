@@ -36,7 +36,7 @@ resource "aws_instance" "webserver" {
 }
 
 resource "aws_s3_bucket" "s3bucket" {
-  bucket = "s3bucket09122023"
+  bucket = "s3bucket09112023"
 }
 
 output "public_ip" {
