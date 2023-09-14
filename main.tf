@@ -27,7 +27,7 @@ locals {
 }
 
 resource "aws_instance" "webserver" {
-  ami           = "ami-022e1a32d3f742bd8"
+  ami           = "ami-04cb4ca688797756f"
   instance_type = var.instance_type
 
   tags = {
