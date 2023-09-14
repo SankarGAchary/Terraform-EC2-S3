@@ -1,0 +1,1 @@
+This is AWS EC2 and S3 resources creation on AWS Cloud for Dev Environment.
