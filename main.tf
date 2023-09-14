@@ -1,8 +1,18 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
-      version = "5.14.0"
+      source  = "hashicorp/aws"
+      version = "5.4.0"
+    }
+  }
+}
+
+terraform {
+  backend "remote" {
+    organization = "Terraform-IaC"
+
+    workspaces {
+      name = "Terraform-EC2-S3"
     }
   }
 }
